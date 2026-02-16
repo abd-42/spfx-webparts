@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/heft-config.schema.json",
+  "phasesByName": {
+    "build": {
+      "tasksByName": {
+        "typescript": {
+          "taskPlugin": {
+            "pluginPackage": "@microsoft/heft",
+            "pluginName": "typescript-plugin"
+          }
+        }
+      }
+    },
+    "test": {
+      "tasksByName": {}
+    }
+  }
+}

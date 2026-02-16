@@ -1,0 +1,39 @@
+{
+  "name": "spfx-leave-request-webpart",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.17.1 <19.0.0"
+  },
+  "scripts": {
+    "build": "heft build",
+    "clean": "heft clean",
+    "serve": "gulp serve",
+    "test": "heft test --clean"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.122.7",
+    "@microsoft/sp-core-library": "1.22.0",
+    "@microsoft/sp-http": "1.22.0",
+    "@microsoft/sp-property-pane": "1.22.0",
+    "@microsoft/sp-webpart-base": "1.22.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/eslint-config-spfx": "1.22.0",
+    "@microsoft/eslint-plugin-spfx": "1.22.0",
+    "@microsoft/heft": "0.72.10",
+    "@microsoft/rush-stack-compiler-4.7": "0.5.0",
+    "@microsoft/sp-build-web": "1.22.0",
+    "@microsoft/sp-module-interfaces": "1.22.0",
+    "@rushstack/eslint-patch": "1.10.5",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "ajv": "^6.12.5",
+    "eslint": "8.57.0",
+    "gulp": "4.0.2",
+    "typescript": "5.3.3"
+  }
+}
